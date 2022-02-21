@@ -1,5 +1,5 @@
 import { Component } from "react";
-import check from './61.png';
+
 
 export class GroceryList extends Component {
     constructor() {

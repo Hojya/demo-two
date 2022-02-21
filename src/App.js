@@ -1,4 +1,4 @@
-
+import { GroceryList } from './GroceryList';
 import './App.css';
 
 function App() {
