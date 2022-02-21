@@ -3,18 +3,18 @@ import './App.css';
 
 function App() {
   return (
-    <div >
-      <div>
-      <h1>
-    СПИСОК ПОКУПОК
-  </h1>
+    <div className='app'>
+      <div className="container">
+        
       </div>
-      <div>
-        <h1>
-    СПИСОК ПОКУПОК
-  </h1>
+    <div className="container">
+      <h1>СПИСОК ПОКУПОК</h1>
+    </div>
+    
+    <GroceryList/>
+      <div className="container"> 
+        
       </div>
-      git add .
     </div>
   );
 }
