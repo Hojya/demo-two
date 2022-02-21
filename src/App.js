@@ -1,12 +1,18 @@
-
+import image from './shopping.jpg'
 import './App.css';
 
 function App() {
   return (
     <div >
-  <h1>
-    привет, мир!!!
+      <div>
+        <img src={image} width = '300px'/>
+      </div>
+      <div>
+        <h1>
+    СПИСОК ПОКУПОК
   </h1>
+      </div>
+  
     </div>
   );
 }
